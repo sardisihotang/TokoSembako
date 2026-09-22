@@ -44,4 +44,4 @@
 
 1. Clone repositori ini / *Clone this repository*:
    ```bash
-   git clone [https://github.com/sardisihotang/nama-repo-toko-sembako.git](https://github.com/sardisihotang/nama-repo-toko-sembako.git)
+   git clone [https://github.com/sardisihotang/TokoSembako.git](https://github.com/sardisihotang/TokoSembako.git)
