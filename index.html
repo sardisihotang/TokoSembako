@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Sembako</title>
+
+    <link rel="icon" type="image/icon" href="image/favicon.PNG">
+
+    <!-- Code for font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Code for font awesome cdn -->
+
+    <!-- Code for font linking css file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Code for font linking css file -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="header">
+      <a href="#beranda" class="logo">
+        <i class="fa fa-shopping-basket"></i> Toko Sembako</a
+      >
+      <nav class="navbar">
+        <a href="#beranda">Beranda</a>
+        <a href="#layanan">layanan</a>
+        <a href="#produk">Produk</a>
+        <a href="#kategori">Kategori</a>
+        <a href="#ulasan">Ulasan</a>
+        <a href="#blog">Blog</a>
+      </nav>
+      <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+      </div>
+
+      <form class="search-form">
+        <input type="search" id="search-box" placeholder="Cari disini..." />
+        <label for="search-box" class="fa fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="image/cart-img-1.png" alt="" />
+          <div class="content">
+            <h3>Watermelon</h3>
+            <span class="price">$5.99/-</span>
+            <span class="quantity">Qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="image/cart-img-2.png" alt="" />
+          <div class="content">
+            <h3>Onion</h3>
+            <span class="price">$2.99/-</span>
+            <span class="quantity">Qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="image/cart-img-3.png" alt="" />
+          <div class="content">
+            <h3>Chicken</h3>
+            <span class="price">$8.99/-</span>
+            <span class="quantity">Qty : 1</span>
+          </div>
+        </div>
+        <div class="total">total : $17.99/-</div>
+        <a href="#" class="btn">PEMBAYARAN</a>
+      </div>
+
+      <form action="#" class="login-form">
+        <h3>Login Sekarang</h3>
+        <input type="email" placeholder="Email Anda" class="box" />
+        <input type="password" placeholder="Password Anda" class="box" />
+
+        <p>Lupa Kata Sandi? <a href="#">Klik Di Sini</a></p>
+        <p>Belum Punya Akun? <a href="#">Buat Sekarang</a></p>
+
+        <input type="submit" value="Login" class="btn" />
+      </form>
+    </header>
+    <!-- Header section -->
+
+    <!-- Banner section -->
+    <section class="beranda" id="beranda">
+      <div class="content">
+        <h3>Buah, Sayur dan Daging <span>Berkualitas</span></h3>
+        <p>
+          Toko buah, sayur dan daging segar berkualitas, 
+          menyediakan produk terbaik untuk kebutuhan harian rumah tangga.
+        </p>
+
+        <a href="#" class="btn">Belanja Sekarang</a>
+      </div>
+    </section>
+    <!-- Banner section -->
+
+    <!-- Our features section -->
+    <section class="layanan" id="layanan">
+      <h1 class="heading"><span> Layanan Kami </span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="image/feature-img-1.png" alt="" />
+          <h3>Segar dan Alami</h3>
+          <p>
+            Kami menyediakan produk buah, sayur, dan daging segar yang dipilih langsung 
+            dari sumber terbaik untuk kualitas terjamin.
+          </p>
+          <a href="#" class="btn">Baca Selengkapnya</a>
+        </div>
+
+        <div class="box">
+          <img src="image/feature-img-2.png" alt="" />
+          <h3>Pengiriman Gratis</h3>
+          <p>
+            Nikmati layanan pengiriman tanpa biaya tambahan untuk setiap pembelian, 
+            dengan jaminan kualitas dan ketepatan waktu!.
+          </p>
+          <a href="#" class="btn">Baca Selengkapnya</a>
+        </div>
+
+        <div class="box">
+          <img src="image/feature-img-3.png" alt="" />
+          <h3>Pembayaran Mudah</h3>
+          <p>
+            Nikmati berbagai metode pembayaran yang aman, nyaman dan praktis untuk 
+            pengalaman berbelanja yang lebih terpercaya.
+          </p>
+          <a href="#" class="btn">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </section>
+    <!-- Our features section -->
+
+    <!-- Our product section -->
+    <section class="produk" id="produk">
+      <h1 class="heading"><span> Produk Kami </span></h1>
+      <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/product-1.png" alt="" />
+            <h1>Jeruk Segar</h1>
+            <div class="price">Rp 45.999 / kg</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Tambahkan Ke Keranjang</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image/product-2.png" alt="" />
+            <h1>Bawang Merah</h1>
+            <div class="price">Rp 39.999 / kg</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Tambahkan Ke Keranjang</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image/product-3.png" alt="" />
+            <h1>Daging Sapi Segar</h1>
+            <div class="price">Rp 139.999 / kg</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Tambahkan Ke Keranjang</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image/product-4.png" alt="" />
+            <h1>Sayur Kol</h1>
+            <div class="price">Rp 29.999 / kg</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Tambahkan Ke Keranjang</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/product-5.png" alt="" />
+            <h1>Kentang</h1>
+            <div class="price">Rp 34.999 / kg</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Tambahkan Ke Keranjang</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image/product-6.png" alt="" />
+            <h1>Alpukat Segar</h1>
+            <div class="price">Rp 29.999 / kg</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Tambahkan Ke Keranjang</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image/product-7.png" alt="" />
+            <h1>Wortel</h1>
+            <div class="price">Rp 15.999 / kg</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Tambahkan Ke Keranjang</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image/product-8.png" alt="" />
+            <h1>Jeruk Nipis</h1>
+            <div class="price">Rp 20.999 / kg</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">Tambahkan Ke Keranjang</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our product section -->
+
+    <!-- Our categories section -->
+    <section class="kategori" id="kategori">
+      <h1 class="heading"><span> Kategori Produk </span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="image/cart-img-1.png" alt="" />
+          <h3>Buah Segar</h3>
+          <p>Diskon Hingga 45%</p>
+          <a href="#" class="btn">Belanja Sekarang</a>
+        </div>
+        <div class="box">
+          <img src="image/cart-img-2.png" alt="" />
+          <h3>Sayuran Segar</h3>
+          <p>Diskon Hingga 49%</p>
+          <a href="#" class="btn">Belanja Sekarang</a>
+        </div>
+        <div class="box">
+          <img src="image/cart-img-3.png" alt="" />
+          <h3>Daging Segar</h3>
+          <p>Diskon Hingga 39%</p>
+          <a href="#" class="btn">Belanja Sekarang</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our categories section -->
+
+    <!-- Review section -->
+
+    <section class="ulasan" id="ulasan">
+      <h1 class="heading"><span> Ulasan Pelanggan </span></h1>
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/pic-1.png" alt="" />
+            <p>
+              Produk yang saya beli sangat berkualitas dan sesuai dengan deskripsi. 
+              Pengiriman cepat, pelayanan ramah, sangat puas berbelanja di sini!.
+            </p>
+            <h3>John deo</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image/pic-2.png" alt="" />
+            <p>
+              Layanan pelanggan sangat membantu dan responsif. 
+              Produk yang diterima selalu segar dan dalam kondisi baik, sangat rekomendasi!.
+            </p>
+            <h3>Maria N.</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image/pic-3.png" alt="" />
+            <p>
+              Pengalaman berbelanja yang menyenangkan. 
+              Harga terjangkau, kualitas produk selalu terjamin, dan pengiriman tepat waktu.
+            </p>
+            <h3>Nichol P.</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image/pic-4.png" alt="" />
+            <p>
+              Belanja di sini sangat memuaskan, produk selalu segar dan berkualitas. 
+              Pengiriman cepat dan customer service sangat ramah.
+            </p>
+            <h3>Ellen Mikel</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review section -->
+
+    <!-- Blog section -->
+    <section class="blog" id="blog">
+      <h1 class="heading"><span> Blog Kami </span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="image/blog-1.jpg" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa fa-user">_Pengguna 1</i></a>
+              <a href="#"><i class="fa fa-calendar"> 07 Januari 2025</i></a>
+            </div>
+            <h3>Produk Organik Terpercaya</h3>
+            <p>
+              Kami menyediakan sayuran segar dan buah alami yang dipilih dengan cermat untuk kualitas terbaik ...
+            </p>
+            <a href="#" class="btn">Baca Selengkapnya</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/blog-2.jpg" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa fa-user">_Pengguna 2</i></a>
+              <a href="#"><i class="fa fa-calendar"> 19 September 2024</i></a>
+            </div>
+            <h3>Sayuran dan Buah Segar</h3>
+            <p>
+              Nikmati produk organik berkualitas tinggi yang aman dan sehat untuk kebutuhan harian Anda dan keluarga ...
+            </p>
+            <a href="#" class="btn">Baca Selengkapnya</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/blog-3.jpg" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa fa-user">_Pengguna 3</i></a>
+              <a href="#"><i class="fa fa-calendar"> 20 Agustus 2024</i></a>
+            </div>
+            <h3>Kualitas Terjamin Setiap Saat</h3>
+            <p>
+              Produk kami selalu dijaga kesegarannya, memastikan Anda mendapatkan bahan 
+              berkualitas untuk setiap keperluan ...
+            </p>
+            <a href="#" class="btn">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog section -->
+
+    <!-- Flooter section -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Toko Sembako <i class="fa fa-shopping-basket"></i></h3>
+          <p>
+            Jangan ragu untuk mengikuti kami di media sosial. Semua tautan dapat ditemukan di bawah.
+          </p>
+
+          <div class="share">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+          </div>
+        </div>
+        <div class="box">
+          <h3>Informasi Kontak</i></h3>
+          <a href="https://wa.me/081267409239" class="links"><i class="fa fa-phone"> +82 812-6740-9239</i></a>
+          <a href="mailto:sardiantosihotang2@gmail.com" class="links"><i class="fa fa-envelope"> tokosembako@gmail.com</i></a>
+          <a href="https://maps.app.goo.gl/y2rrScNP16o1D8yw8" class="links"><i class="fa fa-map-marker"> Jakarta, Indonesia</i></a>
+        </div>
+        <div class="box">
+          <h3>Tautan Cepat</h3>
+          <a href="#beranda" class="links"><i class="fa fa-arrow-right"> Beranda</i></a>
+          <a href="#layanan" class="links"><i class="fa fa-arrow-right"> Layanan</i></a>
+          <a href="#produk" class="links"><i class="fa fa-arrow-right"> Produk</i></a>
+          <a href="#kategori" class="links"><i class="fa fa-arrow-right"> Kategori</i></a>
+          <a href="#ulasan" class="links"><i class="fa fa-arrow-right"> Ulasan</i></a>
+          <a href="#blog" class="links"><i class="fa fa-arrow-right"> Blog</i></a>
+        </div>
+        <div class="box">
+          <h3>Berikan Ulasan</h3>
+          <input type="text" placeholder="Masukkan Ulasan Anda" class="feedback">
+          <input type="email" placeholder="Email Anda" class="email">
+          <input type="submit" value="Kirim" class="btn">
+          <img src="image/payment.png" class="payment-img">
+        </div>
+      </div>
+      <div class="created">Created By <span>Sardianto sihotang </span>|| All Right Reserved</div>
+    </section>
+
+    <!-- Flooter section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
